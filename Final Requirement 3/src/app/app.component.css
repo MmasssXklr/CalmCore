@@ -1,0 +1,44 @@
+nav {
+  background-color: #BAFFDC;
+  padding: 10px;
+  font-size: 30px;overflow: hidden;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;margin-top: 50px;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black; /* Adjust link color */
+}
+
+li a.active {
+  background-color: #4C9F38;
+  color: white;
+  border-radius: 40%;
+}
+
+.content {
+  margin-top: 20px; /* Adjust spacing between nav and content */
+}
+
+
+.logo {
+  float: left; /* Float the logo to the left */
+  margin-right: 20px;
+  height: 100px;
+  width:300px; 
+  margin-left: 100px;/* Add some spacing between the logo and the navigation */
+}

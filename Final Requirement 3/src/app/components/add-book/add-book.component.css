@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .a {
+    background-color: #FFFEEF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45%; /* Adjust the width as needed */
+    padding: 3%;
+    border-radius: 4%;
+  }
+  
+  .d {
+    float: left;
+    width: 45%; /* Adjust the width as needed */
+    padding-right: 5%; /* Add some spacing between the image and the text */
+  }
+  
+  .logo {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+  }
+  
+  a {
+    background-color: #1E1735;
+    color: white;
+    border-radius: 10%;
+    padding: 1%;
+    display: inline-block;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  .b {
+    font-size: 60px;
+    line-height: 0.5;
+  }
+  
+  .c {
+    font-size: 80px;
+    color: #1E1735;
+    line-height: 0.5;
+  }
+  

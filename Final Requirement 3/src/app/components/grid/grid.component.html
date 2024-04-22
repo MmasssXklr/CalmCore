@@ -1,0 +1,53 @@
+<mat-grid-list cols="3" rowHeight="10:10">
+    <mat-grid-tile>
+      <img src="https://marketplace.canva.com/EAE4hS-rxbQ/1/0/900w/canva-phone-wallpaper-motivational-quote-minimal-elegant-XyV6r4oc6ws.jpg" alt="Image 1">
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <img src="https://cdn.geckoandfly.com/wp-content/uploads/2018/04/iphone-smartphone-wallpaper-065-600x1067.jpg" alt="Image 2">
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <img src="https://piktochart.com/wp-content/uploads/2023/05/large-157.jpg" alt="Image 3">
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <img src="https://movemequotes.com/wp-content/uploads/2022/02/Its-okay..jpeg" alt="Image 4">
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <img src="https://api.writco.in/assets/images/post/user/quote/945201102094735617.webp" alt="Image 5">
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <img src="https://i.pinimg.com/736x/ce/57/a1/ce57a19494297a2a23e21bb4ad7b1344.jpg" alt="Image 6">
+    </mat-grid-tile>
+  </mat-grid-list>
+
+  <div class="container">
+    <h1>Freedom Wall</h1>
+    
+    <div class="form-group">
+      <label for="newBook">To</label>
+      <input id="newBook" class="form-control" placeholder="Who is this message to?">
+    </div>
+  
+    
+  
+    <div class="form-group">
+      <label for="newPrice">From</label>
+      <input id="newPrice" class="form-control" placeholder="This message came from?">
+    </div>
+    <div class="form-group">
+        <label for="newDesc">Message</label>
+        <textarea id="newDesc" class="form-control" placeholder="Message to that person"></textarea>
+      </div>
+    <button class="btn btn-primary" (click)="addBook()">Add Message</button>
+    
+    <hr>
+  
+    <div *ngFor="let book of books" class="book-card">
+      <h2>To {{ book.title }}</h2>
+      <p>From: {{ book.desc }}</p>
+      <p>Message: <br><br>{{ book.price }}</p>
+      <button class="btn btn-danger" (click)="deleteBook(book.id)">Delete Message</button>
+    </div>
+  </div>
+
+
+  

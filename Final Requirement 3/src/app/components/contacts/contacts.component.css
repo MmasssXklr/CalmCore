@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.text-container {
+    flex: 2;
+    margin-left: 500px; /* Adjust margin as needed */
+}
+
+.logo {
+    width: 600px; /* Adjust size as needed */
+    height: 600px; /* Adjust size as needed */
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0;
+}
+
+.icon-list li {
+    margin-bottom: 10px;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.mail {
+    background-image: url('https://freeiconshop.com/wp-content/uploads/edd/phone-flat.png'); /* Path to your mail icon image */
+}
+
+.location {
+    background-image: url('https://cdn-icons-png.freepik.com/256/14025/14025631.png?semt=ais_hybrid'); /* Path to your location icon image */
+}
+
+.contact {
+    color: #1E1735; /* Color for "Contact" */
+}
+
+.us {
+    color: #4C9F38; /* Color for "Us" */
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px; /* Adjust font size as needed */
+}
+
+a {
+    background-color: #1E1735;
+    color: white;
+    border-radius: 50%;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
